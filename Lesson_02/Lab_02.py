@@ -9,13 +9,13 @@ address = "1234 Hello"
 city = "San Diego"
 zipCode = 92130
 
-print ("Your name is: " + name)
-print ("Address : " + address)
-print ("City: " + city)
-print ("Zip Code: " + zipCode)
+print ("Your name is: ", name)
+print ("Address : ", address)
+print ("City: ", city)
+print ("Zip Code: ", zipCode)
 
 l = 3
 w = 5
 area = l * 3
 
-print ("The surface area of your rectangles is " + area)
+print ("The surface area of your rectangles is ", area)
