@@ -16,6 +16,6 @@ print ("Zip Code: ", zipCode)
 
 l = 3
 w = 5
-area = l * 3
+area = l * 3 
 
 print ("The surface area of your rectangles is ", area)
