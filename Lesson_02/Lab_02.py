@@ -1,3 +1,4 @@
+
 num1 = 5
 num2 = 10
 num3 = num1* num2
@@ -10,9 +11,7 @@ city = "San Diego"
 zipCode = 92130
 
 print ("Your name is: ", name)
-print ("Address : ", address)
-print ("City: ", city)
-print ("Zip Code: ", zipCode)
+print ("Address :",address, ",",city, ",",zipCode)
 
 l = 3
 w = 5

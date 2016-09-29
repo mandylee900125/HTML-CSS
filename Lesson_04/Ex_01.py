@@ -1,3 +1,4 @@
 print ("{:_<10}{:_<10}".format("test","newTest"))
 
-print ("{:5.4f}".format("123827.239847"))
+print ("{:0.10f}".format(123827.239847))
+
