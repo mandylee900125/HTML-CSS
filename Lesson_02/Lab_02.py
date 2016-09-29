@@ -15,7 +15,8 @@ state = "CA "
 
 print (name)
 print (address)
-print (city,",",state,zipCode)
+print (city,",",state,
+       zipCode)
 
 print ("\t")
 l = 3
