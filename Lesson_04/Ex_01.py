@@ -28,6 +28,7 @@ printr (item, price)
 print("\n")
 
 item = "Subtotal"
+
 price = subtotal
 printr (item, price)
 
