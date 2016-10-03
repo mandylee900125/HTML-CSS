@@ -6,10 +6,9 @@ year = input ("Enter school year:")
 subject = input ("What is your subject?")
 
 def printi (first,last):
-  print
-  ("{:<2}{:>20}{:>20}{:>1}".format("* ", first, last," *"))
+  print("{:<2}{:>13}{:>18}{:>1}".format("* ", first, last," *"))
 
-print("*"*20)
+print("*"*35)
 
 first = school
 last = year
@@ -23,5 +22,5 @@ first = title
 last = subject
 printi (first, last)
 
-print ("*"*20)
+print ("*"*35)
 
