@@ -23,6 +23,9 @@ item = item3
 price = price3
 printr (item, price)
 
+item = "Subtotal:"
+price = (item
+
 print("____________________________________")
 print(" * Thank you for your support *")
 
