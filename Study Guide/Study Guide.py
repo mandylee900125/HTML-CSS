@@ -1,13 +1,12 @@
-num1 = 5
-num2 = 7
-num3 = 9
+area = 0
+radius = 6
 
-def calcAvg(one,two,three):
-    return (one+two+three)/3
+def calcRadius():
+    global area
+    area = 3.14*(radius**2)
 
-def numPrint(one,two,three):
-    avg = calcAvg(one,two,three)
-    print("The average of", one,two,"and",three, "is",avg)
+def radPrint():
+    print("The radius of your circle is{:0.3f}".format(area))
+calcRadius()
+radPrint()
 
-
-numPrint(num1,num2,num3)
