@@ -1,16 +1,29 @@
 #1
-#print("The total cost of yout order is ${:5.2f}".format(one + two))
+if one>two:
+        if one - two >= 1.7:
+            return "ionic"
+        else:
+            return "covalent"
+if two>one:
+        if two - one >= 1.7:
+            return "ionic"
+        else:
+            return "covalent"
 #2
-#print("{:<20}....${:>0.2f}".format(one,two))
+d
 #3
-#d
+d
 #4
-#return (side**2)*6
+a
 #5
-#print("The sum of{:0.0f}and {:0.0f} is {0.0f}".format(one,two,calcSum(one,two)))
+c,d
 #6
-#global area
+d
 #7
-#a
-#8
-#c
+
+
+
+            
+            
+        
+
