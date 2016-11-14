@@ -1,9 +1,9 @@
-number = int(input("Please enter a number: "))
+sentence = input("Enter a sentence" )
 
-def recur(number):
-   if(number == 0):
-       return 1
+def replace(sentence):
+   if 0 == sentence.count(" "):
+      return sentence
    else:
-       return number * recur(number - 1)
+      return replace(sentence[0:sentence.index(" ")]+ "_" + sentence[sentence.index(" ")+1 : len(sentence)])
 
-print(recur(number))
+print(replace(sentence))                 
