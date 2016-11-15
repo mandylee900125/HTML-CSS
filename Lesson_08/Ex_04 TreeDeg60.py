@@ -8,4 +8,4 @@ def tree(word,start,stop):
         start = start +1
         tree(word,start,stop)
         
-tree(word,start,stop)
+print(tree(word,start,stop))
