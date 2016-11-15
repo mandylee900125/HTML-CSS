@@ -4,8 +4,10 @@ stop = len(word)
 
 def tree(word,start,stop):
     if start <= stop:
-        print(word[0:start])
-        start = start +1
+        print("{:>0}".format(word[0:start]))
+        start +1= 
         tree(word,start,stop)
+    else:
+        return " "
         
-print(tree(word,start,stop))
+tree(word,start,stop)
