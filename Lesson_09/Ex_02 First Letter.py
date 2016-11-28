@@ -1,7 +1,9 @@
-words =  [word1, word2, word3, word4, word5]
+words =  ["Freddy", "Mike", "Lisa", "Alan", "Frank"]
 
-first(words)
+
 def first(word):
-    for String in words:
+    for String in word:
         print(String[0])
-    
+
+        
+first(words) 
