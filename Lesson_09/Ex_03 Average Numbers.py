@@ -1,20 +1,20 @@
 numbers = []
-for i in range (0,100)
-    Numbers = i.randint
-print(Numbers)
+for r in range (0,10):
+    numbers[i] = r.randint(1,100)
+print(numbers)
 
 output = " "
 for v in numbers:
-    output = output + number + " "
-    
+    output = output + v + " "
 print(output)
-print(" ")
 
+print(" ")
+sum = 0
 def average(nums):
-    int = 0
-    for l in nums
-        sum += num
-        return average/
+    ave = 0
+    for l in nums:
+        ave += l 
+        return ave/
 
 print("The average of the above number is...", average(numbers))
     
