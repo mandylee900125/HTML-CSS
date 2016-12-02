@@ -1,16 +1,19 @@
 words =  ["Freddy", "Mike", "Lisa", "Alan", "Frank"]
 print("In order...")
-for word in words:
-    print
+output = ""
+for i in words:
+    output += i + " "
+print(output)
 
 print(" ")
 print("Reversed...")
 
+
 def reverse(word):
-    line = ""
-    for i in range(len(word),0,-1):
-        line += word[i]
-    print(line)
+    a = ""
+    for l in range(len(word)-1,-1,-1):
+        a += word[l]+ " "
+    print(a)
     
 reverse(words)
 

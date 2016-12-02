@@ -1,20 +1,22 @@
+import random
 numbers = []
-for r in range (0,10):
-    numbers[i] = r.randint(1,100)
-print(numbers)
+for i in range (0,10):
+     numbers.append(random.randint(1,100))
+print("Numbers...")
 
-output = " "
+output = ""
 for v in numbers:
-    output = output + v + " "
+    output += str(v) + " "
 print(output)
 
-print(" ")
-sum = 0
+print("")
+summ = 0
 def average(nums):
     ave = 0
     for l in nums:
         ave += l 
-        return ave/
+        return ave/lrm(nums)
 
 print("The average of the above number is...", average(numbers))
     
+
