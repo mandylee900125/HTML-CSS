@@ -10,13 +10,14 @@ for v in numbers:
 print(output)
 
 print("")
-summ = 0
+
 def average(nums):
     ave = 0
-    for l in nums:
-        ave += l 
-        return ave/lrm(nums)
-
+    for x in nums:
+        ave += x 
+    return (ave/10)
+     
 print("The average of the above number is...", average(numbers))
     
+
 
