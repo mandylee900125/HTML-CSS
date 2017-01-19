@@ -15,17 +15,17 @@ class Distance:
         self.distance = 0
 
     def getMPH(self):
-        distance = Math.sqrt((xTwo-xOne)*(xTwo-xOne)+(yTwo-yOne)*(yTwo-yOne))
-        return mph
+        self.distance = math.sqrt((self.xTwo-self.xOne)*(self.xTwo-self.xOne)+(self.yTwo-self.yOne)*(self.yTwo-self.yOne))
+        return self.distance
 
-    def main():
-        x1 = int(input("Enter a number for x1: "))
-        y1 = int(input("Enter a number for y1: "))
-        x2 = int(input("Enter a number for x2: "))
-        y2 = int(input("Enter a number for y2: "))
-        
-        user1 = Distance(x1,y1,x2,y2)
+def main():
+    x1 = int(input("Enter a number for x1: "))
+    y1 = int(input("Enter a number for y1: "))
+    x2 = int(input("Enter a number for x2: "))
+    y2 = int(input("Enter a number for y2: "))
+    
+    user1 = Distance(x1,y1,x2,y2)
 
-        print("distance = ",getMPH() )
+    print("distance = ",user1.getMPH() )
 
 main()
