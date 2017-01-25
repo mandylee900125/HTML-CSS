@@ -19,6 +19,7 @@ class MilesPerHour:
     
     def getMins(self):
         return self.minutes
+
     def getMPH(self):
         self.mph = self.distance/((self.hours + self.minutes)/60.0)
         return self.mph
