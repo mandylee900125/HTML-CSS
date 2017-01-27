@@ -36,6 +36,7 @@ def main():
     yn = input("Will you be entering catrgory and price information? y or n ")
     
     
+
     if yn == 'n':
         item1 = Inventory(m,n)
     if yn == 'y':
