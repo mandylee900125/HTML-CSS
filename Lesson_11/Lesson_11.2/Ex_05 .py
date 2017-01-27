@@ -25,12 +25,12 @@ class UserC:
         return self.userID
     
     def __str__(self):
-        return "Customer Info...\nFirst Name: ", self.firstName, "\nLast Name: "
+        print("Customer Info...\nFirst Name: ", self.firstName, "\nLast Name: ", self.lastName, "\nAvatar: ", self.avatar, "\nUserID:", self.userID)
 
 def main():
-    fName = input("Please enter your first name")
-    lName = input("Please enter your last name")
-    yn = input("Do you want a public avatar?y or n.")
+    fName = input("Please enter your first name :")
+    lName = input("Please enter your last name :")
+    yn = input("Do you want a public avatar? y or n.")
 
     if yn == "n":
         user1 = UserC(fName,lName)
