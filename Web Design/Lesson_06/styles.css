@@ -1,3 +1,4 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 h1{
 	color: #038BF3;
 	text-align: center;
@@ -64,17 +65,22 @@ div{
 p:first-letter{
 	font-size: 30px;
 }
+p:first-line{
+	font-family: italic;
+}
 p{
 	font-family: arial;
 }
-
-
-
-		
-		
-		
-		
-		
-		
-		
-		
+tr > th {
+	color: green;
+}
+th:nth-child(1)
+{
+	color: orange;
+}
+h1{
+	color: green;
+}
+#blue {
+	font-family: 'Roboto', sans-serif;
+}
