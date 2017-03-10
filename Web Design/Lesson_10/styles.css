@@ -26,7 +26,7 @@ body{
 	background-repeat: no-repeat:
 	background-position: 50% 50%
 }
-
+z
 a{
 	background-color: yellow;
 }
@@ -84,3 +84,29 @@ h1{
 #blue {
 	font-family: 'Roboto', sans-serif;
 }
+#bigWrapper {
+	border: 8px solid dodgerblue;
+	width: 1000px;
+	margin: 10px auto;
+	padding: 10px
+}
+#list li {
+	display: inline-block;
+	padding: 5px;
+	font: bold 14px Tahoma;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
