@@ -1,3 +1,4 @@
+
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 h1{
 	color: #038BF3;
@@ -5,7 +6,7 @@ h1{
 	background-color: white;
 	padding-top: 40px;
 	padding-bottom: 20px;
-	
+
 	border-color: black;
 	border-style: dashed solid dashed solid;
 	border-width: 5px 8px 5px 8px;
@@ -87,7 +88,7 @@ h1{
 #bigWrapper {
 	border: 8px solid dodgerblue;
 	width: 1000px;
-	margin: 10px auto;
+	margin: 0px auto;
 	padding: 10px
 }
 #list li {
@@ -96,8 +97,26 @@ h1{
 	font: bold 14px Tahoma;
 	text-align: center;
 }
+#pageFooter{
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid blueviolet;
 
+}
+h1{
+	color: #038BF3;
+	text-align: center;
+	background-color: white;
+	padding-top: 40px;
+	padding-bottom: 20px;
 
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	font-style: oblique;
+	display: block;
+	margin-top: 0px;
+}
 
 
 
