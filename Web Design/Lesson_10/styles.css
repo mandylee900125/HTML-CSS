@@ -1,5 +1,9 @@
 
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+*{
+	margin: 0px;
+	padding: 0px;
+}
 h1{
 	color: #038BF3;
 	text-align: center;
@@ -91,11 +95,13 @@ h1{
 	margin: 0px auto;
 	padding: 10px
 }
-#list li {
+#list li{
 	display: inline-block;
 	padding: 5px;
 	font: bold 14px Tahoma;
 	text-align: center;
+	psdding: 0px;
+	margin: 0px;
 }
 #pageFooter{
 	text-align: center;
@@ -115,7 +121,7 @@ h1{
 	border-width: 2px;
 	font-style: oblique;
 	display: block;
-	margin-top: 0px;
+	margin: 0px;
 }
 
 
