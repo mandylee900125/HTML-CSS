@@ -8,13 +8,26 @@ h1{
 h2{
     font: bold 14px Tahoma;
 }
-header, section, footer, aside, article, hgroup{
+header, section, footer, aside, nav, article, hgroup{
     display: block;
 }
-
 body {
     width: 100%;
     display: -webkit-box;
     -webkit-box-pack: center;
 }
+#bigWrapper {
+    -width: 1000;
+    margin: 20px 0px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;
+}
+#topHeader {
+    background: yellow;
+    border: 3px solid black;
+    padding: 20px;
+}
+#topMenu {
 
+}
