@@ -17,20 +17,20 @@ body {
     -webkit-box-pack: center;
 }
 #bigWrapper {
-    -width: 1000;
+    width: 1000px;
     margin: 20px 0px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-box-flex: 1;
+    -webkit-box-flex: 0;
 }
 #topHeader {
-    background: yellow;
-    border: 3px solid black;
+    background: #ffe57b;
+    border: 3px solid #0c00c1;
     padding: 20px;
 }
 #topMenu {
-    border: red;
-    background: blue;
+    border: blue;
+    background: #226dff;
     color: white;
 }
 #topMenu li {
@@ -43,19 +43,25 @@ body {
     display: -webkit-box;
     -webkit-box-orient: horizontal;
 }
+
 #mainSection {
     border: 1px solid blue;
     -webkit-box-flex: 1;
     margin: 20px;
     padding: 20px;
+    -webkit-box-ordinal-group: 2;
+    -webkit-box-flex: 10000;
 }
+
 #sideNews {
     border: 1px solid red;
-    width: 220px;
     margin: 20px 0px;
     padding: 30px;
-    background: purple;
+    background: #87d1c2;
+    -webkit-box-ordinal-group: 1;
+    -webkit-box-flex: 1;
 }
+
 #pageFooter {
     text-align: center;
     padding: 20px;
