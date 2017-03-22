@@ -19,14 +19,17 @@ body {
 #bigWrapper {
     width: 1000px;
     margin: 20px 0px;
+    padding: 20px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-box-flex: 0;
-    border: 3px solid #8d2d9e;
-    padding: 20px;
+    border: 5px solid #8d2d9e;
+    -webkit-border-radius: 15px;
+    -webkit-box-shadow: rgba(110,110,110,0.6) 10px 8px 8px;
+    background: -webkit-linear-gradient(bottom, #f4f3ff, #b3fff5);
 }
 #topHeader {
-    background: #fcff71;
+    background:  #fcff71;
     border: 3px solid #0c00c1;
     padding: 30px;
 }
@@ -70,6 +73,8 @@ body {
     padding: 30px;
     border-top: 2px solid green;
 }
+
+
 
 
 
