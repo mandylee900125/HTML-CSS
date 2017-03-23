@@ -74,8 +74,25 @@ body {
     border-top: 2px solid green;
 }
 
+#box {
+    font-size: 20px;
+    border: 1px solid #ffe593;
+    text-align: center;
+    display: block;
+    margin: 10px;
+    color: white;
+    background: -webkit-radial-gradient(center, circle, #ffbf6d 0%, #fff683 80%);
+    width: 90px;
+    height: 50px;
+    -webkit-border-radius: 100px;
+    -webkit-box-shadow: rgb(110,110,110) 10px 8px 8px;
+    -webkit-transform: translate(180px,-180px);
+}
 
-
+#box > p {
+    padding: 12px;
+    text-shadow: black 1px 1px 3px;
+}
 
 
 
