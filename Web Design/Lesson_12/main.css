@@ -43,7 +43,17 @@ body {
     list-style: none;
     padding: 5px;
     font: bold 14px Tahoma;
+    background: #226dff;
+    -webkit-border-radius: 3px;
+    -webkit-transition: -webkit-transform .5s;
 }
+
+#topMenu li:hover{
+    -webkit-transform: scale( 1.2, 1.2);
+    color: yellow;
+
+}
+
 #flexDiv {
     display: -webkit-box;
     -webkit-box-orient: horizontal;
@@ -81,12 +91,12 @@ body {
     display: block;
     margin: 10px;
     color: white;
-    background: -webkit-radial-gradient(center, circle, #ffbf6d 0%, #fff683 80%);
+    background: -webkit-radial-gradient(center, circle, #ffee00 0%, #ff5f00 80%);
     width: 90px;
     height: 50px;
     -webkit-border-radius: 100px;
     -webkit-box-shadow: rgb(110,110,110) 10px 8px 8px;
-    -webkit-transform: translate(180px,-180px);
+    -webkit-transition: -webkit-transform 1s
 }
 
 #box > p {
@@ -94,7 +104,9 @@ body {
     text-shadow: black 1px 1px 3px;
 }
 
-
+#box:hover {
+    -webkit-transform: translate(-180px,-180px) rotate(180deg) scale(25);
+}
 
 
 
