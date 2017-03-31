@@ -8,10 +8,28 @@
     <form name = "input">
         User name: <input type = "text" name = "username"/><br/><br/>
         Password:  <input type = "password" name = "password"/><br/><br/>
-        <input type = "submit" value = "Submit!" onClick = "getValue()"/>
+        <input type = "submit" value = "Submit!" onClick = "validate()"/>
     </form>
 
     <script type = "text/javascript">
+        function validate(){
+            var x = document.forms.input.username.value;
+            var atPos = x.indexOf("@");
+            var dotPos = x.lastIndexOf(".");
+            var y = document.forms.input.password.value;
+
+            if(atPos < 1 || dotPos < atPos + 2 || dotPos + 2 > x.length)
+                alert("We were unable to process your request. Please correct the following...<br/>" +
+                        "This is not a valid email address!");
+            else if(y.length < 6)
+                alert("We were unable to process your request. Please correct the following...<br/>" +
+                        "Your password does not meet the minimum requirements");
+
+            else
+                alert("Success!");
+        }
+
+    </script>
 
 
 
