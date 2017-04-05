@@ -6,10 +6,31 @@
 </head>
 <body>
     <script type = "text/javascript">
+        function shapes()
+        {
+            var x = document.getElementById("canvas");
+            canvas = x.getContext("2d");
+            canvas.strokeStyle = "black";
+            canvas.fillStyle = "purple";
+            canvas.beginPath();
+            canvas.moveTo(50,350);
+            canvas.lineTo(290,280);
+            canvas.lineTo(90,130);
+            canvas.lineTo(350,210);
+            canvas.lineTo(420,0);
+            canvas.lineTo(460,210);
+            canvas.lineTo(700,130);
+            canvas.lineTo(,);
+
+            canvas.closePath();
+            canvas.stroke();
+
+        }
+        window.addEventListener("load", shapes, false);
 
     </script>
     <section id = "main">
-        <canvas id = "canvas" width = "600" height = "400">
+        <canvas id = "canvas" width = "1000" height = "1000">
 
         </canvas>
     </section>
