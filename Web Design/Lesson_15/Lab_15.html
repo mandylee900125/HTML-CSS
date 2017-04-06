@@ -10,20 +10,35 @@
         {
             var x = document.getElementById("canvas");
             canvas = x.getContext("2d");
+            var g = canvas.createLinearGradient(10,10,700,520);
+            g.addColorStop(0,"purple");
+            g.addColorStop(0.5,"white");
+            g.addColorStop(1,"yellow");
+
+
             canvas.strokeStyle = "black";
-            canvas.fillStyle = "purple";
+            canvas.fillStyle = g;
             canvas.beginPath();
-            canvas.moveTo(50,350);
-            canvas.lineTo(290,280);
+            canvas.moveTo(50,320);
+            canvas.lineTo(290,270);
             canvas.lineTo(90,130);
             canvas.lineTo(350,210);
             canvas.lineTo(420,0);
             canvas.lineTo(460,210);
             canvas.lineTo(700,130);
-            canvas.lineTo(,);
+            canvas.lineTo(500,270);
+            canvas.lineTo(740,320);
+            canvas.lineTo(500,350);
+            canvas.lineTo(680,520);
+            canvas.lineTo(460,420);
+            canvas.lineTo(420,620);
+            canvas.lineTo(350,420);
+            canvas.lineTo(90,520);
+            canvas.lineTo(300,350);
 
             canvas.closePath();
             canvas.stroke();
+            canvas.fill();
 
         }
         window.addEventListener("load", shapes, false);
