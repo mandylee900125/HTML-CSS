@@ -8,13 +8,12 @@ function mouse()
 }
 
 function icon(e){
-    canvas.clearRect(0,0,600,600);
+    canvas.clearRect(0,0,6000,6000);
     var xPos = e.clientX;
     var yPos = e.clientY;
     var pic = new Image();
-
     pic.src = "https://alohacooks.files.wordpress.com/2012/06/soft-serve-ice-cream2.png";
-    pic.addEventListener("load", function(){ canvas.drawImage(pic, 0, 0, 200, 200)}, false);
-    canvas.pic(xPos, yPos);
+    canvas.drawImage(pic, xPos, yPos, 100, 100);
+
 }
 window.addEventListener("load", mouse, false);
