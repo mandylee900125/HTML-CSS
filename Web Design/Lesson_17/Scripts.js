@@ -19,7 +19,7 @@ function startDrag(e){
 
 function dragEnter(e){
     e.preventDefault();
-    leftbox.style.background = "yellow";
+    leftbox.style.background = "#afe5ff";
     leftbox.style.border = "5px solid black";
 }
 
